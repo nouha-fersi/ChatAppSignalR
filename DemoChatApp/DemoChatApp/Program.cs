@@ -1,12 +1,24 @@
 using DemoChatApp.ChatHubs;
 using DemoChatApp.Client.ChatServices;
 using DemoChatApp.Components;
+using DemoChatApp.Data;
+using DemoChatApp.Repos;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveWebAssemblyComponents();
+
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("ChatApp")));
+
+builder.Services.AddControllers();
+
+builder.Services.AddScoped<ChatRepo>();
+
 
 builder.Services.AddSignalR();
 builder.Services.AddScoped<ChatService>();
@@ -37,6 +49,7 @@ app.MapRazorComponents<App>()
     .AddInteractiveWebAssemblyRenderMode()
     .AddAdditionalAssemblies(typeof(DemoChatApp.Client._Imports).Assembly);
 
+app.MapControllers();
 app.MapHub<ChatHub>("/chathub");
 
 app.Run();

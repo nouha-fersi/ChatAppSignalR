@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wNU25h3uZNa8d5vx/XQxWDrOBbiPjCn/1otSM/St+eQ=",
+  "Hash": "uzg+3jayVWlh4IsrHG2GSGYJfTcWr67z27fbw7C8I+w=",
   "Source": "DemoChatApp.Client",
   "BasePath": "/",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "54oh7vyl84",
-      "Integrity": "VTctMN9jR+Radd13C8I9cH3D+U/QW3PexMu6gLxgbAs=",
+      "Fingerprint": "1tphkmgsws",
+      "Integrity": "5UjHRs8dZFlxj8GaiLv25jYmWY2U0if9l1AMXHx3gwk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "z90ds98yqv",
-      "Integrity": "WV3GWfMhxvH2N1XeO6yAbr+Cu/n+4mBce8nmUYmE7/Y=",
+      "Fingerprint": "fy8fob35co",
+      "Integrity": "6ZD4ds9jNm+qa5npfnhVeWlxNfFqaGZVBMcwxKe7w7k=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\DemoChatApp.Client.pdb"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "ew7pklamsh",
-      "Integrity": "wuN9H+j+TCKqUFay3Sj42eAvjDwI5jhYOpdL/u/5QZY=",
+      "Fingerprint": "tbusl1tah4",
+      "Integrity": "ibHNzjfYBdRb9g9Vi00vOZKSrMgrrL5BSHhphbVB4Hc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\webcil\\DemoChatApp.Client.wasm"
@@ -5099,7 +5099,7 @@
       "OriginalItemSpec": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.wasm"
     },
     {
-      "Identity": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\3ajzmciak9-z90ds98yqv.gz",
+      "Identity": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\3ajzmciak9-fy8fob35co.gz",
       "SourceId": "DemoChatApp.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -5113,8 +5113,8 @@
       "RelatedAsset": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DemoChatApp.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "86ibqy7x77",
-      "Integrity": "QP1ANXS4ZI+67gfsOcTo05Xe/09lDLrz/bnwJhGna1g=",
+      "Fingerprint": "43svtd8vb0",
+      "Integrity": "8HBV0Pr6cZ07eR++OKM1Ug9/pE6XV8V1PvdDYvzguqk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DemoChatApp.Client.pdb"
@@ -6485,7 +6485,7 @@
       "OriginalItemSpec": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Numerics.wasm"
     },
     {
-      "Identity": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\ekfbkq2se2-54oh7vyl84.gz",
+      "Identity": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\ekfbkq2se2-1tphkmgsws.gz",
       "SourceId": "DemoChatApp.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -6499,8 +6499,8 @@
       "RelatedAsset": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "oy5zm10vf4",
-      "Integrity": "8EIQ620VVZB6YTTcGS8EvWb95hEuMIBBed00iC5QEC8=",
+      "Fingerprint": "rajl807sz8",
+      "Integrity": "88ynbrGv6+M0l9I4uMxCakVj2633h59GSNm7WvCYs0E=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -8270,7 +8270,7 @@
       "OriginalItemSpec": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.Watcher.wasm"
     },
     {
-      "Identity": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\uo2tt40cwk-ew7pklamsh.gz",
+      "Identity": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\uo2tt40cwk-tbusl1tah4.gz",
       "SourceId": "DemoChatApp.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -8284,8 +8284,8 @@
       "RelatedAsset": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DemoChatApp.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "dzm2fdd5um",
-      "Integrity": "2bMNs6BOMW9iKTkPdx5heTMPzczmUerx56ezZ5bVaX4=",
+      "Fingerprint": "q2vbyh1qm0",
+      "Integrity": "Ekh8Vrd+iahOyw1hysj5nuepUsGACPMq7yVr02KNEK0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DemoChatApp.Client.wasm"
@@ -9109,7 +9109,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VTctMN9jR+Radd13C8I9cH3D+U/QW3PexMu6gLxgbAs=\""
+          "Value": "\"5UjHRs8dZFlxj8GaiLv25jYmWY2U0if9l1AMXHx3gwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 13:47:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5UjHRs8dZFlxj8GaiLv25jYmWY2U0if9l1AMXHx3gwk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\ekfbkq2se2-1tphkmgsws.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000107284626"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9320"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"88ynbrGv6+M0l9I4uMxCakVj2633h59GSNm7WvCYs0E=\""
         },
         {
           "Name": "Last-Modified",
@@ -9118,45 +9157,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VTctMN9jR+Radd13C8I9cH3D+U/QW3PexMu6gLxgbAs="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\ekfbkq2se2-54oh7vyl84.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000107307651"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9318"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8EIQ620VVZB6YTTcGS8EvWb95hEuMIBBed00iC5QEC8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 13:18:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -9172,19 +9172,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"VTctMN9jR+Radd13C8I9cH3D+U/QW3PexMu6gLxgbAs=\""
+          "Value": "W/\"5UjHRs8dZFlxj8GaiLv25jYmWY2U0if9l1AMXHx3gwk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VTctMN9jR+Radd13C8I9cH3D+U/QW3PexMu6gLxgbAs="
+          "Value": "sha256-5UjHRs8dZFlxj8GaiLv25jYmWY2U0if9l1AMXHx3gwk="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\ekfbkq2se2-54oh7vyl84.gz",
+      "AssetFile": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\ekfbkq2se2-1tphkmgsws.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9193,7 +9193,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9318"
+          "Value": "9320"
         },
         {
           "Name": "Content-Type",
@@ -9201,11 +9201,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8EIQ620VVZB6YTTcGS8EvWb95hEuMIBBed00iC5QEC8=\""
+          "Value": "\"88ynbrGv6+M0l9I4uMxCakVj2633h59GSNm7WvCYs0E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 13:18:56 GMT"
+          "Value": "Wed, 25 Dec 2024 13:30:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9223,7 +9223,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8EIQ620VVZB6YTTcGS8EvWb95hEuMIBBed00iC5QEC8="
+          "Value": "sha256-88ynbrGv6+M0l9I4uMxCakVj2633h59GSNm7WvCYs0E="
         }
       ]
     },
@@ -9649,7 +9649,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20360"
+          "Value": "20412"
         },
         {
           "Name": "Content-Type",
@@ -9657,7 +9657,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WV3GWfMhxvH2N1XeO6yAbr+Cu/n+4mBce8nmUYmE7/Y=\""
+          "Value": "\"6ZD4ds9jNm+qa5npfnhVeWlxNfFqaGZVBMcwxKe7w7k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 13:47:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6ZD4ds9jNm+qa5npfnhVeWlxNfFqaGZVBMcwxKe7w7k="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/DemoChatApp.Client.pdb",
+      "AssetFile": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\3ajzmciak9-fy8fob35co.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000073362189"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13630"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8HBV0Pr6cZ07eR++OKM1Ug9/pE6XV8V1PvdDYvzguqk=\""
         },
         {
           "Name": "Last-Modified",
@@ -9666,45 +9705,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WV3GWfMhxvH2N1XeO6yAbr+Cu/n+4mBce8nmUYmE7/Y="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/DemoChatApp.Client.pdb",
-      "AssetFile": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\3ajzmciak9-z90ds98yqv.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000074777537"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13372"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QP1ANXS4ZI+67gfsOcTo05Xe/09lDLrz/bnwJhGna1g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 13:18:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -9720,19 +9720,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"WV3GWfMhxvH2N1XeO6yAbr+Cu/n+4mBce8nmUYmE7/Y=\""
+          "Value": "W/\"6ZD4ds9jNm+qa5npfnhVeWlxNfFqaGZVBMcwxKe7w7k=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WV3GWfMhxvH2N1XeO6yAbr+Cu/n+4mBce8nmUYmE7/Y="
+          "Value": "sha256-6ZD4ds9jNm+qa5npfnhVeWlxNfFqaGZVBMcwxKe7w7k="
         }
       ]
     },
     {
       "Route": "_framework/DemoChatApp.Client.pdb.gz",
-      "AssetFile": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\3ajzmciak9-z90ds98yqv.gz",
+      "AssetFile": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\3ajzmciak9-fy8fob35co.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9741,7 +9741,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13372"
+          "Value": "13630"
         },
         {
           "Name": "Content-Type",
@@ -9749,11 +9749,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QP1ANXS4ZI+67gfsOcTo05Xe/09lDLrz/bnwJhGna1g=\""
+          "Value": "\"8HBV0Pr6cZ07eR++OKM1Ug9/pE6XV8V1PvdDYvzguqk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 13:18:56 GMT"
+          "Value": "Wed, 25 Dec 2024 13:30:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9771,7 +9771,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QP1ANXS4ZI+67gfsOcTo05Xe/09lDLrz/bnwJhGna1g="
+          "Value": "sha256-8HBV0Pr6cZ07eR++OKM1Ug9/pE6XV8V1PvdDYvzguqk="
         }
       ]
     },
@@ -9786,7 +9786,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17685"
+          "Value": "18197"
         },
         {
           "Name": "Content-Type",
@@ -9794,7 +9794,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wuN9H+j+TCKqUFay3Sj42eAvjDwI5jhYOpdL/u/5QZY=\""
+          "Value": "\"ibHNzjfYBdRb9g9Vi00vOZKSrMgrrL5BSHhphbVB4Hc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 13:47:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ibHNzjfYBdRb9g9Vi00vOZKSrMgrrL5BSHhphbVB4Hc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/DemoChatApp.Client.wasm",
+      "AssetFile": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\uo2tt40cwk-tbusl1tah4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000124146493"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8054"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ekh8Vrd+iahOyw1hysj5nuepUsGACPMq7yVr02KNEK0=\""
         },
         {
           "Name": "Last-Modified",
@@ -9803,45 +9842,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wuN9H+j+TCKqUFay3Sj42eAvjDwI5jhYOpdL/u/5QZY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/DemoChatApp.Client.wasm",
-      "AssetFile": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\uo2tt40cwk-ew7pklamsh.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000125833648"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7946"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2bMNs6BOMW9iKTkPdx5heTMPzczmUerx56ezZ5bVaX4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 13:18:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -9857,19 +9857,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"wuN9H+j+TCKqUFay3Sj42eAvjDwI5jhYOpdL/u/5QZY=\""
+          "Value": "W/\"ibHNzjfYBdRb9g9Vi00vOZKSrMgrrL5BSHhphbVB4Hc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wuN9H+j+TCKqUFay3Sj42eAvjDwI5jhYOpdL/u/5QZY="
+          "Value": "sha256-ibHNzjfYBdRb9g9Vi00vOZKSrMgrrL5BSHhphbVB4Hc="
         }
       ]
     },
     {
       "Route": "_framework/DemoChatApp.Client.wasm.gz",
-      "AssetFile": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\uo2tt40cwk-ew7pklamsh.gz",
+      "AssetFile": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\Debug\\net8.0\\compressed\\uo2tt40cwk-tbusl1tah4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9878,7 +9878,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7946"
+          "Value": "8054"
         },
         {
           "Name": "Content-Type",
@@ -9886,11 +9886,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2bMNs6BOMW9iKTkPdx5heTMPzczmUerx56ezZ5bVaX4=\""
+          "Value": "\"Ekh8Vrd+iahOyw1hysj5nuepUsGACPMq7yVr02KNEK0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 13:18:56 GMT"
+          "Value": "Wed, 25 Dec 2024 13:30:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9908,7 +9908,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2bMNs6BOMW9iKTkPdx5heTMPzczmUerx56ezZ5bVaX4="
+          "Value": "sha256-Ekh8Vrd+iahOyw1hysj5nuepUsGACPMq7yVr02KNEK0="
         }
       ]
     },

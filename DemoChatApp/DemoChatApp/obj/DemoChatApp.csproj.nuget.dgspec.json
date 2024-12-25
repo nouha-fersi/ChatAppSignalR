@@ -1,0 +1,256 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp\\DemoChatApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\ChatModels\\ChatModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\ChatModels\\ChatModels.csproj",
+        "projectName": "ChatModels",
+        "projectPath": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\ChatModels\\ChatModels.csproj",
+        "packagesPath": "C:\\Users\\Nouha FERSI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\ChatModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nouha FERSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\DemoChatApp.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\DemoChatApp.Client.csproj",
+        "projectName": "DemoChatApp.Client",
+        "projectPath": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\DemoChatApp.Client.csproj",
+        "packagesPath": "C:\\Users\\Nouha FERSI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nouha FERSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\ChatModels\\ChatModels.csproj": {
+                "projectPath": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\ChatModels\\ChatModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp\\DemoChatApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp\\DemoChatApp.csproj",
+        "projectName": "DemoChatApp",
+        "projectPath": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp\\DemoChatApp.csproj",
+        "packagesPath": "C:\\Users\\Nouha FERSI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nouha FERSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\ChatModels\\ChatModels.csproj": {
+                "projectPath": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\ChatModels\\ChatModels.csproj"
+              },
+              "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\DemoChatApp.Client.csproj": {
+                "projectPath": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp.Client\\DemoChatApp.Client.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

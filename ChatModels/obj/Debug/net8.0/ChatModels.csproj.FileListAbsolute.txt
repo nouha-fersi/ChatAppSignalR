@@ -1,0 +1,11 @@
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\ChatModels\bin\Debug\net8.0\ChatModels.deps.json
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\ChatModels\bin\Debug\net8.0\ChatModels.dll
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\ChatModels\bin\Debug\net8.0\ChatModels.pdb
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\ChatModels\obj\Debug\net8.0\ChatModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\ChatModels\obj\Debug\net8.0\ChatModels.AssemblyInfoInputs.cache
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\ChatModels\obj\Debug\net8.0\ChatModels.AssemblyInfo.cs
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\ChatModels\obj\Debug\net8.0\ChatModels.csproj.CoreCompileInputs.cache
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\ChatModels\obj\Debug\net8.0\ChatModels.dll
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\ChatModels\obj\Debug\net8.0\refint\ChatModels.dll
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\ChatModels\obj\Debug\net8.0\ChatModels.pdb
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\ChatModels\obj\Debug\net8.0\ref\ChatModels.dll

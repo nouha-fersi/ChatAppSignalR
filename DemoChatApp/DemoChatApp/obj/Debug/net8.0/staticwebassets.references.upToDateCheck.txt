@@ -1,0 +1,8 @@
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\staticwebassets.build.json

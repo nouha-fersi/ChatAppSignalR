@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DemoChatApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DemoChatApp.lykbnvk7nw.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nouha FERSI\\Desktop\\learning_apps\\DemoChatApp\\DemoChatApp\\DemoChatApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DemoChatApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DemoChatApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DemoChatApp.props",
+      "PackagePath": "build\\DemoChatApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DemoChatApp.props",
+      "PackagePath": "buildMultiTargeting\\DemoChatApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DemoChatApp.props",
+      "PackagePath": "buildTransitive\\DemoChatApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

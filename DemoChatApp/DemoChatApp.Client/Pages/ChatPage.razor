@@ -1,8 +1,9 @@
 ﻿@page "/Chat"
-@using Microsoft.AspNetCore.SignalR.Client
+@implements IDisposable
 @using ChatModels
+@using DemoChatApp.Client.ChatServices;
 @rendermode InteractiveWebAssembly
-@inject NavigationManager NavManager
+@inject ChatService chatservice
 <PageTitle>Netcode-Hub Chat</PageTitle>
 
 <div class="row">
@@ -11,7 +12,7 @@
 			<div class="card-header">Netcode-Hub Chat</div>
 			<div class="card-body">
 				<ul class="list-group">
-					@foreach (var chat in Chats)
+					@foreach (var chat in chatservice.Chats)
 					{
 						<li class="list-group-item mb-2">
 							@chat.DateTime.Date.ToString("dd/MMM/yy")
@@ -34,7 +35,7 @@
 				</div>
 			</div>
 			<div class="card-footer fw-bold">
-				@if (!IsConnected)
+				@if (!chatservice.IsConnected)
 				{
 					<div class="alert alert-danger">Chat Disconnected</div>
 				}
@@ -49,46 +50,17 @@
 
 @code {
 	public static string? StoredUserName { get; set; }
-	private HubConnection? hubConnection;
-	private List<Chat> Chats = [];
 	private Chat Chat = new();
 
 	protected override async Task OnInitializedAsync()
 	{
-		hubConnection = new HubConnectionBuilder()
-			.WithUrl(NavManager.ToAbsoluteUri("/chathub"))
-			.Build();
-
-		hubConnection.On<Chat>("ReceiveMessage", (Chat) =>
-		{
-			Chats.Add(Chat);
-			InvokeAsync(() => StateHasChanged());
-		});
-
-		try
-		{
-			await hubConnection.StartAsync();
-		}
-		catch (Exception ex)
-		{
-			Console.WriteLine($"Error starting HubConnection: {ex.Message}");
-		}
+		chatservice.InvokeChatDisplay += StateHasChanged;
+		await chatservice.StartConnectionAsync();
+		chatservice.ReceiveMessage();
 	}
 
-	private bool IsConnected =>
-		hubConnection?.State == HubConnectionState.Connected;
+	async void SendMessageClicked() => await chatservice.SendChat(Chat);
 
-	void Send()
-	{
-		Chat.UserName ??= StoredUserName;
-		hubConnection!.SendAsync("SendMessage", Chat);
-	}
-	void SendMessageClicked()
-	{
-		Chat.DateTime = DateTime.Now;
-		if (Chat.UserName != "")
-			StoredUserName = Chat.UserName;
-		Send();
-		Chat.Message = null;
-	}
+	public void Dispose() => chatservice.InvokeChatDisplay -= StateHasChanged;
+
 }

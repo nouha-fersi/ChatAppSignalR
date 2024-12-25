@@ -1,5 +1,5 @@
 using DemoChatApp.ChatHubs;
-using DemoChatApp.Client.Pages;
+using DemoChatApp.Client.ChatServices;
 using DemoChatApp.Components;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +9,8 @@ builder.Services.AddRazorComponents()
     .AddInteractiveWebAssemblyComponents();
 
 builder.Services.AddSignalR();
+builder.Services.AddScoped<ChatService>();
+
 
 var app = builder.Build();
 

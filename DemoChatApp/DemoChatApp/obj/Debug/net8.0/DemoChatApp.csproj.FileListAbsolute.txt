@@ -75,3 +75,4 @@ C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\o
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\ref\DemoChatApp.dll
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\bin\Debug\net8.0\ChatModels.dll
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\bin\Debug\net8.0\ChatModels.pdb
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\DemoChatApp.sourcelink.json

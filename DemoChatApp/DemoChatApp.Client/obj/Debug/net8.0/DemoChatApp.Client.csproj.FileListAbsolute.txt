@@ -1080,6 +1080,7 @@ C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.C
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\webcil\ChatModels.wasm
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\c25i1byzc9-ni3i9si3qg.gz
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\9uewm14skr-5lsemehxoj.gz
-C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\uo2tt40cwk-klt81yaclt.gz
-C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\3ajzmciak9-opvon9tpxd.gz
-C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\ekfbkq2se2-pthruv3nqy.gz
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\DemoChatApp.Client.sourcelink.json
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\uo2tt40cwk-a1m3339j4f.gz
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\3ajzmciak9-sx1cn2y5ad.gz
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\ekfbkq2se2-di70w0gplx.gz

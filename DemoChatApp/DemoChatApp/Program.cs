@@ -1,5 +1,6 @@
 using DemoChatApp.Authentication;
 using DemoChatApp.ChatHubs;
+using DemoChatApp.Client.Authentication;
 using DemoChatApp.Client.ChatServices;
 using DemoChatApp.Components;
 using DemoChatApp.Data;
@@ -14,7 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveWebAssemblyComponents();
 
-
+builder.Services.AddAuthorizationCore();
 builder.Services.AddDbContext<DemoChatApp.Data.DbContextOptions>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("ChatApp")));
 
@@ -32,10 +33,16 @@ builder.Services.AddAuthentication(options =>
     options.DefaultScheme = IdentityConstants.ApplicationScheme;
     options.DefaultSignInScheme = IdentityConstants.ExternalScheme;
 }).AddIdentityCookies();
-
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/";
+    options.AccessDeniedPath = "/access-denied"; 
+});
 
 builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddScoped<AuthenticationStateProvider, PersistingServerAuthenticationStateProvider>();
+
+
 
 
 
@@ -61,6 +68,12 @@ else
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+
+app.UseStaticFiles();
+
+app.UseRouting();
+app.UseAuthorization();
 
 app.UseHttpsRedirection();
 

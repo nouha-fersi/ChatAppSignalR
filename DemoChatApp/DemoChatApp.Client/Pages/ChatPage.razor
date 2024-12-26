@@ -2,6 +2,9 @@
 @using ChatModels
 @using DemoChatApp.Client.ChatServices;
 @using Microsoft.AspNetCore.SignalR.Client
+@using System.Security.Claims
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize]
 @rendermode InteractiveWebAssembly
 @inject NavigationManager navigationManager
 <PageTitle>Netcode-Hub Chat</PageTitle>
@@ -9,7 +12,11 @@
 <div class="row">
 	<div class="col-lg-7">
 		<div class="card">
-			<div class="card-header">Netcode-Hub Chat</div>
+			<Microsoft.AspNetCore.Components.Authorization.AuthorizeView>
+				<Authorized>
+					<div class="card-header">Netcode-Hub Chat @context.User.Claims.Where(f => f.Type == ClaimTypes.Name).Last().Value</div>
+				</Authorized>
+			</Microsoft.AspNetCore.Components.Authorization.AuthorizeView>
 			<div class="card-body">
 				<ul class="list-group">
 					@foreach (var chat in Chats)
@@ -24,7 +31,7 @@
 					}
 				</ul>
 				<div class="mt-3">
-					<EditForm Model="Chat" OnValidSubmit="SendChat">
+					<EditForm Model="Chat" OnValidSubmit="SendChat" FormName="ChatForm">
 						<DataAnnotationsValidator />
 						<div class="vstack gap-1">
 							<InputText @bind-Value="Chat.UserName" class="form-control" placeholder="Username"/>
@@ -76,6 +83,4 @@
 		_hubConnection!.SendAsync("SendMessage", Chat);
 		Chat.Message = null;
 	}
-					
-
 }

@@ -63,7 +63,7 @@
 				Fullname = registerModel.FullName,
 				Email = registerModel.Email,
 				PasswordHash= registerModel.Password,
-				UserName= registerModel.Email
+				UserName= registerModel.FullName
 			};
 		var result = await userManager.CreateAsync(appUser, registerModel.Password);
 		if (!result.Succeeded)
@@ -71,8 +71,17 @@
             Message = string.Join("; ", result.Errors.Select(e => e.Description));
 			return;
 		}
-        NavManager.NavigateTo("/Account/Login");
+        NavManager.NavigateTo("/");
 	}
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        if (authState.User.Identity?.IsAuthenticated == true)
+        {
+            NavManager.NavigateTo("/home");
+        }
+    }
 
 	public class RegisterModel
 	{

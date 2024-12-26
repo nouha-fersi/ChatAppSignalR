@@ -36,7 +36,7 @@ namespace DemoChatApp.Authentication
 
         private async Task OnpersistingAsync()
         {
-            var authenticationState = await authenticationStateTask;
+            AuthenticationState authenticationState = await authenticationStateTask!;
             var principal = authenticationState.User;
             if (principal.Identity?.IsAuthenticated == true)
             {

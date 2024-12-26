@@ -2,7 +2,7 @@
   {
     "ContainingType": "DemoChatApp.Authentication.IdentityComponentsEndpointsRouteBuilderExtentions\u002B\u003C\u003Ec",
     "Method": "\u003CMapAdditionalIdentityEnpoints\u003Eb__0_0",
-    "RelativePath": "Acount/Logout",
+    "RelativePath": "Account/Logout",
     "HttpMethod": "POST",
     "IsController": false,
     "Order": 0,

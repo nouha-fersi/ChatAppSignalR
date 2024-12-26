@@ -7,13 +7,13 @@ namespace DemoChatApp.Authentication
     {
         public static IEndpointConventionBuilder MapAdditionalIdentityEnpoints(this IEndpointRouteBuilder endpoints) 
         {
-            var accountGroup = endpoints.MapGroup("/Acount");
-            accountGroup.MapPost("/Logout",async (ClaimsPrincipal user , SignInManager <AppUser> signInManager) =>
+            var accountGroup = endpoints.MapGroup("/Account");
+            accountGroup.MapPost("/Logout", async (ClaimsPrincipal user, SignInManager<AppUser> signInManager) =>
             {
                 await signInManager.SignOutAsync();
                 return TypedResults.LocalRedirect("/");
-
             });
+
             return accountGroup;
         }
     }

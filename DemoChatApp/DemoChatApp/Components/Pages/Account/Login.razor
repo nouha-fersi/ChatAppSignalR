@@ -1,4 +1,6 @@
-﻿@page "/Account/Login"
+﻿
+@page "/"
+@using Microsoft.AspNetCore.Components.Authorization
 <h1>Log In</h1>
 <div class="row">
 	<div class="col-md-4">
@@ -58,8 +60,17 @@
 		}
 
 		await signInManager.PasswordSignInAsync(findUser, loginModel.Password, false, false);
-		NavManager.NavigateTo("/", true);
+		NavManager.NavigateTo("/home", true);
 
+	}
+
+	protected override async Task OnInitializedAsync()
+	{
+		var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+		if (authState.User.Identity?.IsAuthenticated == true)
+		{
+			NavManager.NavigateTo("/home");
+		}
 	}
 
 	public class LoginModel

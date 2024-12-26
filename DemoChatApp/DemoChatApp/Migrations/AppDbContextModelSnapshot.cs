@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DemoChatApp.Migrations
 {
-    [DbContext(typeof(AppDbContext))]
+    [DbContext(typeof(Data.DbContextOptions))]
     partial class AppDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

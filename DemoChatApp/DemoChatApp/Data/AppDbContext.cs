@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DemoChatApp.Data
 {
-    public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
+    public class DbContextOptions(DbContextOptions<DbContextOptions> options) : DbContext(options)
     {
         
   

@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DemoChatApp.Migrations
 {
-    [DbContext(typeof(AppDbContext))]
+    [DbContext(typeof(Data.DbContextOptions))]
     [Migration("20241225131859_First")]
     partial class First
     {

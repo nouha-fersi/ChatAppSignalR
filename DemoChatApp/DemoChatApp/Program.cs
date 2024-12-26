@@ -1,8 +1,11 @@
+using DemoChatApp.Authentication;
 using DemoChatApp.ChatHubs;
 using DemoChatApp.Client.ChatServices;
 using DemoChatApp.Components;
 using DemoChatApp.Data;
 using DemoChatApp.Repos;
+using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,8 +15,29 @@ builder.Services.AddRazorComponents()
     .AddInteractiveWebAssemblyComponents();
 
 
-builder.Services.AddDbContext<AppDbContext>(options =>
+builder.Services.AddDbContext<DemoChatApp.Data.DbContextOptions>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("ChatApp")));
+
+builder.Services.AddDbContext<DemoChatApp.Data.AuthDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("ChatAppAuth")));
+
+builder.Services.AddIdentityCore<AppUser>()
+    .AddEntityFrameworkStores<AuthDbContext>()
+    .AddSignInManager()
+    .AddDefaultTokenProviders();
+
+builder.Services.AddAuthorization();
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultScheme = IdentityConstants.ApplicationScheme;
+    options.DefaultSignInScheme = IdentityConstants.ExternalScheme;
+}).AddIdentityCookies();
+
+
+builder.Services.AddCascadingAuthenticationState();
+builder.Services.AddScoped<AuthenticationStateProvider, PersistingServerAuthenticationStateProvider>();
+
+
 
 builder.Services.AddControllers();
 
@@ -51,5 +75,5 @@ app.MapRazorComponents<App>()
 
 app.MapControllers();
 app.MapHub<ChatHub>("/chathub");
-
+app.MapAdditionalIdentityEnpoints();
 app.Run();

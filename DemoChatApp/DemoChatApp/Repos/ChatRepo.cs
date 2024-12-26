@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DemoChatApp.Repos
 {
-    public class ChatRepo(AppDbContext appDbContext)
+    public class ChatRepo(Data.DbContextOptions appDbContext)
     {
         public async Task SaveChatAsync(Chat chat)
         {

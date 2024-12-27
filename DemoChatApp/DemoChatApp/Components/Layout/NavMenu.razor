@@ -2,7 +2,9 @@
 @using DemoChatApp.Repos
 @using Microsoft.AspNetCore.Components.Authorization
 @using System.Security.Claims
+@using Microsoft.AspNetCore.SignalR.Client
 @inject ChatRepo chatRepo
+
 <div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">DemoChatApp</a>
@@ -53,6 +55,16 @@
 @code {
     [CascadingParameter]
     public Task<AuthenticationState> AuthenticationState { get; set; }
+    private HubConnection hubConnection;
+    protected async override Task OnInitializedAsync()
+    {
+        hubConnection = new HubConnectionBuilder()
+       .WithUrl(NavManager.ToAbsoluteUri("/chathub")) 
+       .Build();
+
+        await hubConnection.StartAsync();
+    }
+
 
     async Task LogoutClicked()
     {
@@ -60,5 +72,6 @@
         .FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)!.Value;
 
         await chatRepo.RemoveUsersAsync(id);
+        await hubConnection!.SendAsync("RemoveUserAsync", id);
     }
 }

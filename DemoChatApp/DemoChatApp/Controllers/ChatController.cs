@@ -1,6 +1,5 @@
 ﻿using ChatModels;
 using DemoChatApp.Repos;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DemoChatApp.Controllers
@@ -12,5 +11,10 @@ namespace DemoChatApp.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Chat>>> GetChatsAsync()
             => Ok(await chatRepo.GetChatsAsync());
+
+
+        [HttpGet("users")]
+        public async Task<ActionResult<List<Chat>>> GetAvailableUsersAsync()
+            => Ok(await chatRepo.GetAvailableUsersAsync());
     }
 }

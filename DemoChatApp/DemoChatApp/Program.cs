@@ -13,13 +13,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
-    .AddInteractiveWebAssemblyComponents();
+    .AddInteractiveServerComponents()
+.AddInteractiveWebAssemblyComponents();
 
 builder.Services.AddAuthorizationCore();
-builder.Services.AddDbContext<DemoChatApp.Data.DbContextOptions>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("ChatApp")));
+builder.Services.AddDbContext<AppDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("ChatAppUsers")));
 
-builder.Services.AddDbContext<DemoChatApp.Data.AuthDbContext>(options =>
+builder.Services.AddDbContext<AuthDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("ChatAppAuth")));
 
 builder.Services.AddIdentityCore<AppUser>()
@@ -83,6 +84,7 @@ app.UseAntiforgery();
 
 
 app.MapRazorComponents<App>()
+    .AddInteractiveServerRenderMode()
     .AddInteractiveWebAssemblyRenderMode()
     .AddAdditionalAssemblies(typeof(DemoChatApp.Client._Imports).Assembly);
 

@@ -22,7 +22,7 @@ namespace DemoChatApp.Migrations.AuthDb
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ChatModels.Chat", b =>
+            modelBuilder.Entity("ChatModels.Models.GroupChat", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -37,13 +37,13 @@ namespace DemoChatApp.Migrations.AuthDb
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UserName")
+                    b.Property<string>("SenderId")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Chats");
+                    b.ToTable("GroupChats");
                 });
 
             modelBuilder.Entity("DemoChatApp.Authentication.AppUser", b =>

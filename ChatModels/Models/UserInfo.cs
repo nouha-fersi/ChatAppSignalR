@@ -1,4 +1,4 @@
-﻿namespace DemoChatApp.Client.Models
+﻿namespace ChatModels.Models
 {
     public class UserInfo
     {

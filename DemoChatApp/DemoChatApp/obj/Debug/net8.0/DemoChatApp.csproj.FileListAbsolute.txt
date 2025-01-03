@@ -1,10 +1,3 @@
-C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\DemoChatApp.csproj.AssemblyReference.cache
-C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\DemoChatApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\DemoChatApp.AssemblyInfoInputs.cache
-C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\DemoChatApp.AssemblyInfo.cs
-C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\DemoChatApp.csproj.CoreCompileInputs.cache
-C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\DemoChatApp.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\DemoChatApp.sourcelink.json
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\bin\Debug\net8.0\DemoChatApp.Client.staticwebassets.runtime.json
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\bin\Debug\net8.0\DemoChatApp.Client.staticwebassets.endpoints.json
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\bin\Debug\net8.0\appsettings.Development.json
@@ -162,6 +155,13 @@ C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\b
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\bin\Debug\net8.0\DemoChatApp.Client.dll
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\bin\Debug\net8.0\ChatModels.pdb
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\bin\Debug\net8.0\DemoChatApp.Client.pdb
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\DemoChatApp.csproj.AssemblyReference.cache
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\DemoChatApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\DemoChatApp.AssemblyInfoInputs.cache
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\DemoChatApp.AssemblyInfo.cs
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\DemoChatApp.csproj.CoreCompileInputs.cache
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\DemoChatApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\DemoChatApp.sourcelink.json
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp\obj\Debug\net8.0\scopedcss\bundle\DemoChatApp.styles.css

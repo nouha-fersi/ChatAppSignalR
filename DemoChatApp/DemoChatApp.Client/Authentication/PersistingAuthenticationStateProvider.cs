@@ -1,5 +1,5 @@
 ﻿using System.Security.Claims;
-using DemoChatApp.Client.Models;
+using ChatModels.Models;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
 

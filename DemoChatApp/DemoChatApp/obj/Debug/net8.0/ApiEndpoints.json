@@ -17,42 +17,38 @@
   },
   {
     "ContainingType": "DemoChatApp.Controllers.ChatController",
-    "Method": "GetChatsAsync",
-    "RelativePath": "api/Chat",
+    "Method": "GetGroupChatsAsync",
+    "RelativePath": "api/Chat/group-chats",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[ChatModels.Chat, ChatModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "DemoChatApp.Controllers.ChatController",
-    "Method": "GetAvailableUsersAsync",
+    "Method": "GetIndividualChatsAsync",
+    "RelativePath": "api/Chat/individual",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestChatDTO",
+        "Type": "ChatModels.DTOs.RequestChatDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoChatApp.Controllers.ChatController",
+    "Method": "GetUsersAsync",
     "RelativePath": "api/Chat/users",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[ChatModels.Chat, ChatModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   }
 ]

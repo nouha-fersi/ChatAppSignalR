@@ -1074,8 +1074,8 @@ C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.C
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\ftdv25lxb1-tptq2av103.gz
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\qls7e7rck7-lfu7j35m59.gz
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\bf1wa20guf-oyz0vx2fzb.gz
-C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\c25i1byzc9-tuso9gkyz0.gz
-C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\9uewm14skr-9nvemr6dzx.gz
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\c25i1byzc9-kfwslyzswm.gz
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\9uewm14skr-0hyomdwx2o.gz
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\staticwebassets.build.endpoints.json
@@ -1085,12 +1085,12 @@ C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.C
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DemoChatApp.Client.props
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DemoChatApp.Client.props
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\DemoChat.B659FC92.Up2Date
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\DemoChatApp.Client.dll
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\refint\DemoChatApp.Client.dll
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\DemoChatApp.Client.pdb
 C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\ref\DemoChatApp.Client.dll
-C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\uo2tt40cwk-cl7o7ysc68.gz
-C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\3ajzmciak9-6iarkm7b40.gz
-C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\ekfbkq2se2-m0ki12p6g4.gz
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\uo2tt40cwk-lmcrj8ymk1.gz
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\3ajzmciak9-0okxr446zu.gz
+C:\Users\Nouha FERSI\Desktop\learning_apps\DemoChatApp\DemoChatApp\DemoChatApp.Client\obj\Debug\net8.0\compressed\ekfbkq2se2-bmfimtk0nz.gz

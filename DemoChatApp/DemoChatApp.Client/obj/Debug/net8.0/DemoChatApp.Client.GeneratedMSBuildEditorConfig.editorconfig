@@ -24,12 +24,12 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Nouha FERSI/Desktop/learning_apps/DemoChatApp/DemoChatApp/DemoChatApp.Client/Pages/ChatPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdFBhZ2UucmF6b3I=
+[C:/Users/Nouha FERSI/Desktop/learning_apps/DemoChatApp/DemoChatApp/DemoChatApp.Client/Pages/GroupChatPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JvdXBDaGF0UGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nouha FERSI/Desktop/learning_apps/DemoChatApp/DemoChatApp/DemoChatApp.Client/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Users/Nouha FERSI/Desktop/learning_apps/DemoChatApp/DemoChatApp/DemoChatApp.Client/Pages/IndividualChatPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kaXZpZHVhbENoYXRQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Nouha FERSI/Desktop/learning_apps/DemoChatApp/DemoChatApp/DemoChatApp.Client/_Imports.razor]

@@ -1,5 +1,6 @@
 using DemoChatApp.Authentication;
 using DemoChatApp.ChatHubs;
+using DemoChatApp.Client.AppStates;
 using DemoChatApp.Client.Authentication;
 using DemoChatApp.Client.ChatServices;
 using DemoChatApp.Components;
@@ -43,7 +44,7 @@ builder.Services.ConfigureApplicationCookie(options =>
 builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddScoped<AuthenticationStateProvider, PersistingServerAuthenticationStateProvider>();
 
-
+builder.Services.AddScoped<AvailableUserState>();
 
 
 
@@ -53,7 +54,7 @@ builder.Services.AddScoped<ChatRepo>();
 
 
 builder.Services.AddSignalR();
-builder.Services.AddScoped<ChatService>();
+builder.Services.AddScoped<MyHubConnectionService>();
 
 
 var app = builder.Build();

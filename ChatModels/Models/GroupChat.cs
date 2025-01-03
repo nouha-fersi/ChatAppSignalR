@@ -1,14 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ChatModels
+namespace ChatModels.Models
 {
-    public class Chat
+    public class GroupChat
     {
         public int Id { get; set; }
         [Required]
-        public string? Message { get; set; }
+        public string? SenderId { get; set; }
         [Required]
-        public string? UserName { get; set; }
+        public string? Message { get; set; }
         public DateTime DateTime { get; set; }
     }
 }
